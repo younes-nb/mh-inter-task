@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('./assets/fonts/irsans.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IRANSans, sans-serif;
+}
+
+img {
+    max-width: none !important;
+}
+
+ul {
+    text-decoration: none;
+}
+
+button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

@@ -1,0 +1,12 @@
+
+.toggle-group button {
+    color: #B0B0B0;
+    border: 1px solid #C4C6C2;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.toggle-group button.active {
+    background-color: #849D6A;
+    color: #fff;
+}
